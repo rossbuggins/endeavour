@@ -84,3 +84,27 @@ Can await an endeavour until created is returned.
 By default uses http stream.
 
 Can optionally returned created resource.
+
+By default uses the configured dotnet cache.
+
+Uses middleware to look for endeavours and register routes.
+
+Controllers can use generic Endeavour<T>
+
+‘’’
+[HttpPost]
+Public async Task<Endeavour<T>> Post(T object)
+‘’’
+
+‘’’
+[HttpPut]
+Public async Task<Endeavour<T>> Put(Guid endeavourId)
+‘’’
+
+‘’’
+[HttpGet]
+Public async Task<Endeavour<T>> Get(Guid endeavourId)
+‘’’
+
+
+
