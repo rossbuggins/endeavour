@@ -10,6 +10,8 @@ Idempotent Promises
 
 ## A Promise, without the promise
 
+
+
 ## idempotency
 
 ## Status
@@ -57,6 +59,11 @@ Location: endeavour url
 
 Location header: resource url
 
+### Get Status Stream
+
+/object/endeavour/[endevourId]/stream
+
+Returns a stream of status data until endeavour is complete or timeout reached.
 
 
 ### Get Resource 
@@ -68,3 +75,12 @@ Use location header from endeavour status when 201 created is returned.
 GET endeavours/[endeavourId]
 
 Used for managing endeavour status centrally.
+
+## aspnetcore implementation
+
+Endeavour launches are fully async.
+Can await an endeavour until created is returned.
+
+By default uses http stream.
+
+Can optionally returned created resource.
