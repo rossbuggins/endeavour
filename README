@@ -1,2 +1,25 @@
 # Endeavour Pattern
 Idempotent Promises
+
+## Aims
+- idempotency
+- non guaranteed promise pattern, aka an endeavour
+- RESTful(ish)
+- Optional stateful status
+- aspnetcore implementation
+
+## A Promise, without the promise
+
+## idempotency
+
+## Status
+
+## Basic Pattern
+
+### Post
+
+### Put
+
+### Get Status
+
+### Get Resource 
