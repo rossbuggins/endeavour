@@ -1,2 +1,110 @@
 # Endeavour Pattern
 Idempotent Promises
+
+## Aims
+- idempotency
+- non guaranteed promise pattern, aka an endeavour
+- RESTful(ish)
+- Optional stateful status
+- aspnetcore implementation
+
+## A Promise, without the promise
+
+
+
+## idempotency
+
+## Status
+
+## Basic Pattern
+
+### Post
+
+#### Request
+
+/objectName/endeavour
+
+
+Headers:
+
+Endeavour-timeout: max time
+
+Body:
+Standard Json body
+
+#### Response
+
+Code: 202 Accepted
+
+Headers:
+Location: endeavour url
+
+
+
+
+### Put
+
+/object/endeavour/[endevourId]
+
+
+
+### Get Status
+
+/object/endeavour/[endevourId]
+
+202 Accepted
+Location: endeavour url
+
+201 Created
+
+Location header: resource url
+
+### Get Status Stream
+
+/object/endeavour/[endevourId]/stream
+
+Returns a stream of status data until endeavour is complete or timeout reached.
+
+
+### Get Resource 
+
+Use location header from endeavour status when 201 created is returned.
+
+# Optional centralised endeavours
+
+GET endeavours/[endeavourId]
+
+Used for managing endeavour status centrally.
+
+## aspnetcore implementation
+
+Endeavour launches are fully async.
+Can await an endeavour until created is returned.
+
+By default uses http stream.
+
+Can optionally returned created resource.
+
+By default uses the configured dotnet cache.
+
+Uses middleware to look for endeavours and register routes.
+
+Controllers can use generic Endeavour<T>
+
+‘’’
+[HttpPost]
+Public async Task<Endeavour<T>> Post(T object)
+‘’’
+
+‘’’
+[HttpPut]
+Public async Task<Endeavour<T>> Put(Guid endeavourId)
+‘’’
+
+‘’’
+[HttpGet]
+Public async Task<Endeavour<T>> Get(Guid endeavourId)
+‘’’
+
+
+
