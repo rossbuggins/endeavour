@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = Endeavour.Abstractions
+build_property.ProjectDir = /home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Abstractions/

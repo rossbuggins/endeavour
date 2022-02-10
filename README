@@ -1,8 +1,9 @@
 # Endeavour Pattern
-Idempotent Promises
+Idempotent Builder based Promises
 
 ## Aims
 - idempotency
+- builder pattern
 - non guaranteed promise pattern, aka an endeavour
 - RESTful(ish)
 - Optional stateful status

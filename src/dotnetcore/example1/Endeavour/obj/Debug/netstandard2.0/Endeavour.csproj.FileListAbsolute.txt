@@ -1,0 +1,10 @@
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour/bin/Debug/netstandard2.0/Endeavour.deps.json
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour/bin/Debug/netstandard2.0/Endeavour.dll
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour/bin/Debug/netstandard2.0/Endeavour.pdb
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour/obj/Debug/netstandard2.0/Endeavour.GeneratedMSBuildEditorConfig.editorconfig
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour/obj/Debug/netstandard2.0/Endeavour.AssemblyInfoInputs.cache
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour/obj/Debug/netstandard2.0/Endeavour.AssemblyInfo.cs
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour/obj/Debug/netstandard2.0/Endeavour.csproj.CoreCompileInputs.cache
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour/obj/Debug/netstandard2.0/Endeavour.dll
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour/obj/Debug/netstandard2.0/Endeavour.pdb
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour/obj/Debug/netstandard2.0/Endeavour.csproj.AssemblyReference.cache

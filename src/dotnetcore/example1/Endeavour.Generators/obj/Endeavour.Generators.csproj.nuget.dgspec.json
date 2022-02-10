@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Generators/Endeavour.Generators.csproj": {}
+  },
+  "projects": {
+    "/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Generators/Endeavour.Generators.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Generators/Endeavour.Generators.csproj",
+        "projectName": "Endeavour.Generators",
+        "projectPath": "/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Generators/Endeavour.Generators.csproj",
+        "packagesPath": "/home/ross/.nuget/packages/",
+        "outputPath": "/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Generators/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ross/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Microsoft.CodeAnalysis.Analyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.3.3, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "Microsoft.CodeAnalysis.CSharp.Workspaces": {
+              "target": "Package",
+              "version": "[4.0.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

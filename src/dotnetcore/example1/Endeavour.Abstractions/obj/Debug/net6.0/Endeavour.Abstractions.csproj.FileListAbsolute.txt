@@ -1,0 +1,11 @@
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Abstractions/bin/Debug/net6.0/Endeavour.Abstractions.deps.json
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Abstractions/bin/Debug/net6.0/Endeavour.Abstractions.dll
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Abstractions/bin/Debug/net6.0/ref/Endeavour.Abstractions.dll
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Abstractions/bin/Debug/net6.0/Endeavour.Abstractions.pdb
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Abstractions/obj/Debug/net6.0/Endeavour.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Abstractions/obj/Debug/net6.0/Endeavour.Abstractions.AssemblyInfoInputs.cache
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Abstractions/obj/Debug/net6.0/Endeavour.Abstractions.AssemblyInfo.cs
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Abstractions/obj/Debug/net6.0/Endeavour.Abstractions.csproj.CoreCompileInputs.cache
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Abstractions/obj/Debug/net6.0/Endeavour.Abstractions.dll
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Abstractions/obj/Debug/net6.0/ref/Endeavour.Abstractions.dll
+/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Abstractions/obj/Debug/net6.0/Endeavour.Abstractions.pdb

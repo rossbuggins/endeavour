@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+     <LangVersion>preview</LangVersion>
+    <TargetFramework>netstandard2.0</TargetFramework>
+     <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    
+    <ProjectReference Include="..\Endeavour.Generators\Endeavour.Generators.csproj" OutputItemType="Analyzer" ReferenceOutputAssembly="false"  />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" PackagePath="analyzers/dotnet/cs" Visible="false" />
+  </ItemGroup>
+</Project>

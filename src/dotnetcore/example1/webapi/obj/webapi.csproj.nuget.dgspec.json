@@ -1,0 +1,186 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/ross/source/endeavour/src/dotnetcore/example1/webapi/webapi.csproj": {}
+  },
+  "projects": {
+    "/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Abstractions/Endeavour.Abstractions.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Abstractions/Endeavour.Abstractions.csproj",
+        "projectName": "Endeavour.Abstractions",
+        "projectPath": "/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Abstractions/Endeavour.Abstractions.csproj",
+        "packagesPath": "/home/ross/.nuget/packages/",
+        "outputPath": "/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Abstractions/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ross/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour/Endeavour.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour/Endeavour.csproj",
+        "projectName": "Endeavour",
+        "projectPath": "/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour/Endeavour.csproj",
+        "packagesPath": "/home/ross/.nuget/packages/",
+        "outputPath": "/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ross/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/ross/source/endeavour/src/dotnetcore/example1/webapi/webapi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/ross/source/endeavour/src/dotnetcore/example1/webapi/webapi.csproj",
+        "projectName": "webapi",
+        "projectPath": "/home/ross/source/endeavour/src/dotnetcore/example1/webapi/webapi.csproj",
+        "packagesPath": "/home/ross/.nuget/packages/",
+        "outputPath": "/home/ross/source/endeavour/src/dotnetcore/example1/webapi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/ross/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Abstractions/Endeavour.Abstractions.csproj": {
+                "projectPath": "/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour.Abstractions/Endeavour.Abstractions.csproj"
+              },
+              "/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour/Endeavour.csproj": {
+                "projectPath": "/home/ross/source/endeavour/src/dotnetcore/example1/Endeavour/Endeavour.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
